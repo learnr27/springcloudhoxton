@@ -10,7 +10,7 @@ CREATE TABLE t_storage
   AUTO_INCREMENT = 0
   DEFAULT CHARSET = utf8;
 
-INSERT INTO seata_storage.t_storage(`id`, `product_id`, `total`, `used`, `residue`)
+INSERT INTO t_storage(`id`, `product_id`, `total`, `used`, `residue`)
 VALUES ('1', '1', '100', '0', '100');
 
 SELECT *
